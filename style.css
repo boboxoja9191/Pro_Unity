@@ -1,0 +1,118 @@
+/* Kichik ekranlar uchun (mobil) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* Masalan, menyuni vertikal qilish yoki yashirish */
+  nav {
+    display: none; /* Yoki hamburger menyu qilasiz */
+  }
+
+  /* Kontentni to‘liq kenglikda ko‘rsatish */
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* Rasm va bloklarni mos o‘lchamda qilish */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+body {
+  background-color: blueviolet;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+form {
+  background: limegreen;
+  width: 20%;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input,
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+  font-size: 19px;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.text {
+  font-size: 34px;
+  margin: 10px;
+  color: #f9f9f9;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.matn {
+  margin: 25px;
+  color: yellow;
+  font-size: 25px;
+}
+
+img {
+  margin: 30px;
+  padding: 8px;
+  width: 400px;
+  height: 400px;
+  display: block;
+}
+
+.list-item {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  color: white;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: orange;
+  font-size: 29px;
+  font-family: monospace;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  border: 3px solid lime;
+  padding: 20px;
+  margin: 5px;
+  color: gold;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.img-wrapper img {
+  width: 360px; /* yoki siz xohlagan o‘lcham */
+  height: auto;
+}
